@@ -5,7 +5,7 @@ import plotly.graph_objects as px
 
 
 
-df = pd.read_csv(r"C:\Users\dundi\OneDrive\Desktop\population1.csv", names=['countries', 'UK', 'India', 'China', 'Russia', 'USA', 'Pakistan', 'Japan', 'Bangladesh', 'Australia'])
+df = pd.read_csv(r"C:\Users\dundi\OneDrive\Desktop\population_data.csv", names=['countries', 'UK', 'India', 'China', 'Russia', 'USA', 'Pakistan', 'Japan', 'Bangladesh', 'Australia'])
 display(df.head(21))
 
 
